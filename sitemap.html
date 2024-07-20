@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SchoolsInfo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav class="navbar">
+        <a href="index.html"><img src="./images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-bars" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./Information.html">INFORMATION</a></li>
+            <li><a href="./sitemap.html">MAP</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Map</h1>
+    </section>
+    <div class="map">
+      <div class="container">
+        <h1>Map</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924247.1420783813!2d66.49600446284293!3d25.191740605789963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1720112303271!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+<!-- <div class="container">
+    <div class="map">
+    <h1>User Location on Map</h1>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+  </div>
+</div> -->
+
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        Welcome to our School Directory, your ultimate resource for finding the
+        best educational institutions in your city. Our platform provides
+        detailed information on schools, including facilities, programs, and
+        locations,<br />
+        helping you make informed decisions for your child's education. With
+        user-friendly search features and an interactive map, discovering the
+        perfect school has never been easier. Join us in creating a brighter
+        future for your child.
+      </p>
+    </section>
+
+    <footer>
+      <div class="foot">
+        <div class="col">
+          <p>
+            Finding the perfect school for your child has become easier now
+            because our comprehensive school directory helps you discover.
+          </p>
+        </div>
+        <div class="col">
+          <h3>
+            Address
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>1234 School Directory Ave</p>
+          <p>Education City</p>
+          <p>Country</p>
+          <p class="email-id">info@schooldirectory.com</p>
+          <h4>+1 (123) 456-7890</h4>
+        </div>
+        <div class="col">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./Information.html">Informations</a></li>
+            <li><a href="./sitemap.html">Site Map</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>
+            Wellcome
+            <div class="underline"><span></span></div>
+          </h3>
+          <form>
+            <i class="far fa-envelope"></i>
+            <input type="email" placeholder="Enter You Email" required />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <i class="fab fa-twitter"></i>
+                    <a href="https://www.instagram.com/"></a><i class="fab fa-instagram"></i></a>
+                    <a href="https://pk.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">&copy; 2024 SchoolsInfo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
